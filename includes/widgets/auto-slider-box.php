@@ -562,70 +562,7 @@ class Auto_Slider_Box_Widget extends \Elementor\Widget_Base {
 
 			?>
 		</div>
-		<style>
-			
-			#elementor-custom-scroller-area {
-			    z-index: 1;
-			    overflow: hidden;
-			}
-			#elementor-custom-scroller-area ul {
-			    margin: 0;
-			    padding: 0;
-			    height: 100%;
-			    list-style: none;
-			    border: 0;
-			    outline: 0;
-			    font-size: 100%;
-			    vertical-align: baseline;
-			    background: transparent;
-			}
-			#elementor-custom-scroller-area ul:hover {
-			    -webkit-animation-play-state: paused;
-			    animation-play-state: paused;
-			}
-			#elementor-custom-scroller-area .elementor-custom-flex-item {
-			    display: flex;
-			    flex: 1 0 auto;
-			    -webkit-box-orient: horizontal;
-			}
-			#elementor-custom-scroller-area ul span {
-			    display: inline-flex;
-			    align-items: center;
-			    -webkit-transform: translateX(0);
-			    transform: translateX(0);
-			    -webkit-transition: 0.5s ease-in-out;
-			    transition: 0.5s ease-in-out;
-			    /*-webkit-animation: marquee 30s linear infinite;
-			    animation: marquee 30s linear infinite;*/
-			}
-			#elementor-custom-scroller-area li {
-			    margin: 0;
-			    padding: 0 30px;
-			    vertical-align: top;
-			    width: 25vw;
-			    overflow: hidden;flex: 1
-			}
-			#elementor-custom-scroller-area .elementor-custom-slide-item a{width: 100%;height: 100%;}
-
-			#elementor-custom-scroller-area .elementor-custom-slide-item .title {
-			    display: inline-block;
-			    margin-top: 15px;
-			    line-height: 1.6;
-			    font-size: 14px;
-			    white-space: nowrap;
-			}
-
-			@-webkit-keyframes marquee{
-			  0%{-webkit-transform:translateX(0)}to{-webkit-transform:translateX(-100%)}
-			}
-			@keyframes marquee{
-
-			  0%{-webkit-transform:translateX(0);transform:translateX(0)}to{-webkit-transform:translateX(-100%);transform:translateX(-100%)}
-			}
-			@-webkit-keyframes marqueeSafari{
-			  0%{left:0}to{left:-150%}}@keyframes marqueeSafari{0%{left:0}to{left:-150%}
-			}
-
+		<style>#elementor-custom-scroller-area{z-index:1;overflow:hidden}#elementor-custom-scroller-area ul{margin:0;padding:0;height:100%;list-style:none;border:0;outline:0;font-size:100%;vertical-align:baseline;background:0 0}#elementor-custom-scroller-area ul:hover{-webkit-animation-play-state:paused;animation-play-state:paused}#elementor-custom-scroller-area .elementor-custom-flex-item{display:flex;flex:1 0 auto;-webkit-box-orient:horizontal}#elementor-custom-scroller-area ul span{display:inline-flex;align-items:center;-webkit-transform:translateX(0);transform:translateX(0);-webkit-transition:.5s ease-in-out;transition:.5s ease-in-out}#elementor-custom-scroller-area li{margin:0;padding:0 30px;vertical-align:top;width:25vw;overflow:hidden;flex:1}#elementor-custom-scroller-area .elementor-custom-slide-item a{width:100%;height:100%}#elementor-custom-scroller-area .elementor-custom-slide-item .title{display:inline-block;margin-top:15px;line-height:1.6;font-size:14px;white-space:nowrap}@-webkit-keyframes marquee{0%{-webkit-transform:translateX(0)}to{-webkit-transform:translateX(-100%)}}@keyframes marquee{0%{-webkit-transform:translateX(0);transform:translateX(0)}to{-webkit-transform:translateX(-100%);transform:translateX(-100%)}}@-webkit-keyframes marqueeSafari{0%{left:0}to{left:-150%}}@keyframes marqueeSafari{0%{left:0}to{left:-150%}}
 		</style>
 		
 	<?php
