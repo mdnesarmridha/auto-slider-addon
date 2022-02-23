@@ -565,21 +565,13 @@ class Auto_Slider_Box_Widget extends \Elementor\Widget_Base {
 		<style>
 			
 			#elementor-custom-scroller-area {
-			    /*position: relative;
-			    height: 100vh;*/
 			    z-index: 1;
 			    overflow: hidden;
 			}
-			/*#elementor-custom-scroller-area {
-			    margin-bottom: -15vw;
-			    margin-top: calc(12vw + 50px);
-			}*/
 			#elementor-custom-scroller-area ul {
 			    margin: 0;
 			    padding: 0;
-			   /* position: absolute;*/
 			    height: 100%;
-			    /*width: 2002px;*/
 			    list-style: none;
 			    border: 0;
 			    outline: 0;
@@ -599,13 +591,12 @@ class Auto_Slider_Box_Widget extends \Elementor\Widget_Base {
 			#elementor-custom-scroller-area ul span {
 			    display: inline-flex;
 			    align-items: center;
-
 			    -webkit-transform: translateX(0);
 			    transform: translateX(0);
 			    -webkit-transition: 0.5s ease-in-out;
 			    transition: 0.5s ease-in-out;
-			    /*-webkit-animation: marquee var(--autoplay-speed) linear infinite;
-			    animation: marquee var(--autoplay-speed) linear infinite;*/
+			    /*-webkit-animation: marquee 30s linear infinite;
+			    animation: marquee 30s linear infinite;*/
 			}
 			#elementor-custom-scroller-area li {
 			    margin: 0;
@@ -628,8 +619,6 @@ class Auto_Slider_Box_Widget extends \Elementor\Widget_Base {
 			  0%{-webkit-transform:translateX(0)}to{-webkit-transform:translateX(-100%)}
 			}
 			@keyframes marquee{
-				/*0% { transform: translate(0, 0);}
-			  100% { transform: translate(-100%, 0);}*/
 
 			  0%{-webkit-transform:translateX(0);transform:translateX(0)}to{-webkit-transform:translateX(-100%);transform:translateX(-100%)}
 			}
